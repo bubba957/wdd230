@@ -3,12 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test</title>
+    <title>Cody Smith - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development Cody Smith course assignment portal">
+    <meta name="author" content="Cody Smith">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
 </head>
-    <!-- <h1>Home Page</h1> -->
-    <span>I want to be a heading!</span>   
-    <span role="heading" aria-level="2">Yay I'm a heading!</span>
 <body>
-    
+    <header>
+        <img src="images/profile.jpg" alt="Cody Smith" height="75" width="100">
+        <span>Cody Smith</span>
+    </header>
+    <nav>
+        <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="week01/chamber-site-plan.html">Chamber</a></li>
+            <li><a href="#">Site Plan</a></li>
+            <li><a href="#">Form</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>WDD 230: Web Frontend Development</h1>
+        <div class="mainCard">
+            <section class="card">
+                <h2>Learning Activities</h2>
+                <ul>
+                    <li><a href="week01/chamber-site-plan.html">Week 01</a></li>
+                    <li><a href="#">Week 02</a></li>
+                    <li><a href="#">Week 03</a></li>
+                    <li><a href="#">Week 04</a></li>
+                    <li><a href="#">Week 05</a></li>
+                    <li><a href="#">Week 06</a></li>
+                </ul>
+            </section>
+            <section class="card">
+                <h2>Information</h2>
+                <ul>
+                    <h3>Weather information will go here.</h3>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span>Cody Smith | Utah</p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 </html>
