@@ -1,9 +1,20 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     color: #303030;
 }
+
 nav {
     background-color: #415541;
+}
+
+.navigation {
+    /* display: flex; */
+    list-style: none;
 }
 
 nav a {
@@ -11,7 +22,7 @@ nav a {
     color: #fff;
     text-align: center;
     padding: .5rem;
-    text-decoration: none;
+    list-style: none;
 }
 
 nav a.hover {
@@ -22,9 +33,32 @@ nav .active {
     background-color: rgba(0,0,0,0.3);
 }
 
-/* nav a.hover {
-    background-color: rgba(255,255,255,0.2);
+/* main::before {
+    content: '---';
 } */
+
+#hamButton::before {
+    content: "\2630";
+}
+
+#hamButton {
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+#navMain {
+    display: none;
+}
+
+#navMain.open {
+    display: block;
+}
+
+#hamButton.open::before {
+    content: 'X';
+}
 
 .card {
     margin: 1rem 2vw;
@@ -36,12 +70,16 @@ nav .active {
     border-radius: 10px;
     overflow: hidden;
     margin: 1rem 0;
+    text-align: center;
 }
 
-.card ul {
+.card ul, h3 {
+    border: 1px solid #415541;
     background-color: lightgreen;
-    color: #fff;
+    color: black;
     display: block;
+    overflow: hidden;
     text-align: center;
     padding: .75rem 0;
+    border-radius: 10px;
 }
