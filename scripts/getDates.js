@@ -14,3 +14,16 @@ hamButton.addEventListener('click', () => {
     navigation.classList.toggle('open');
     hamButton.classList.toggle('open');
 });
+
+const darkBtn = document.querySelector('#darkBtn');
+const main = document.querySelector('#navMain');
+
+darkBtn.addEventListener('click', () => {
+    main.classList.toggle('dark');
+    // if(darkBtn.textContent.includes('week02/images/dark-theme.svg')) {
+    //     main.style.background = '#000';
+    // }
+    // else {
+    //     main.style.background = '#eee';
+    // }
+});
