@@ -1,25 +1,11 @@
-/* @media screen and (min-width: 48rem) {
+
+@media screen and (min-width: 48rem) {
     nav ul {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
-    #navBtn {
-        display: none;
-    }
-
-    .navigation {
-        display: inline;
-    }
-} */
-
-@media screen and (min-width: 750px) {
-    nav ul {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-
-    #navBtn {
+    .navBtn {
         display: none;
     }
 
@@ -27,13 +13,16 @@
         display: inline;
     }
 
-    /* .card {
+    main {
         display: grid;
-        grid-template-columns: 1fr 2fr;
-        grid-gap: 1rem;
+        grid-template-columns: 1fr 1fr;
     }
 
-    .card a {
-        text-decoration: none;
-    } */
+    .curEvents {
+        grid-column: 1/2;
+    }
+
+    .compSpot {
+        grid-column: 2/3;
+    }
 }

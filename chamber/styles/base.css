@@ -39,15 +39,15 @@ nav a {
     list-style: none;
 }
 
-#navBtn::before {
+.navBtn::before {
     content: "\2630";
 }
 
-#navBtn.open::before {
+.navBtn.open::before {
     content: 'X';
 }
 
-#navBtn {
+.navBtn {
     display: block;
     font-size: 2rem;
     padding: 1rem;
@@ -63,11 +63,11 @@ nav a {
     display: block;
 }
 
-#CTA-p {
+.CTA-p {
     margin: 0;
 }
 
-#hero-img {
+.hero-img {
     margin-bottom: 2rem;
 }
 

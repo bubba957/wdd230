@@ -1,5 +1,5 @@
 
-const hamBtn = document.querySelector('#navBtn');
+const hamBtn = document.querySelector('.navBtn');
 const nav = document.querySelector('.navigation');
 
 hamBtn.addEventListener('click', () => {
