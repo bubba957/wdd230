@@ -1,5 +1,5 @@
 
-header#darkBtn {
+/* header#darkBtn {
     position: relative;
 }
 
@@ -19,17 +19,16 @@ nav {
 }
 
 .navigation {
-    /* display: flex; */
     list-style: none;
 }
 
 nav a {
     display: block;
-    color: #fff;
+    color: #ff0000;
     text-align: center;
     padding: .5rem;
     list-style: none;
-}
+} 
 
 nav a.hover {
     background-color: rgba(255,255,255,0.2);
@@ -41,6 +40,10 @@ nav .active {
 
 #hamButton::before {
     content: "\2630";
+}
+
+#hamButton.open::before {
+    content: 'X';
 }
 
 #hamButton {
@@ -66,10 +69,6 @@ nav .active {
     color: white;
 }
 
-#hamButton.open::before {
-    content: 'X';
-}
-
 .card {
     margin: 1rem 2vw;
 }
@@ -92,4 +91,4 @@ nav .active {
     text-align: center;
     padding: .75rem 0;
     border-radius: 10px;
-}
+} */
