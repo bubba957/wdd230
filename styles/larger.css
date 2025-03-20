@@ -1,14 +1,14 @@
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 48rem) {
     nav ul {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
-    #hamButton {
+    .hamButton {
         display: none;
     }
 
-    #navMain {
+    .navMain {
         display: inline;
     }
 

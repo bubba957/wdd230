@@ -23,9 +23,11 @@ body {
     text-align: center;
 }
 
-nav {
+.navigation {
+    display: block;
+    background-color: black;
     text-align: left;
-    padding: 2rem;
+    /* padding: 2rem; */
 }
 
 nav ul li {
@@ -35,10 +37,11 @@ nav ul li {
 
 nav a {
     display: block;
-    background-color: white;
-    color: black;
+    /* background-color: black; */
+    color: palegreen;
     padding: .5rem;
     list-style: none;
+    text-align: center;
 }
 
 .navBtn::before {
@@ -63,6 +66,16 @@ nav a {
 
 .navigation.open {
     display: block;
+}
+
+nav .active {
+    background-color: rgba(0,0,0,0.3);
+}
+
+**********************************
+
+.box-shadow:hover {
+    display: none;
 }
 
 .CTA {

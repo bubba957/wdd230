@@ -3,7 +3,7 @@ header#darkBtn {
     position: relative;
 }
 
-#darkBtn {
+.darkBtn {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -38,34 +38,34 @@ nav .active {
     background-color: rgba(0,0,0,0.3);
 }
 
-#hamButton::before {
+.hamButton::before {
     content: "\2630";
 }
 
-#hamButton.open::before {
+.hamButton.open::before {
     content: 'X';
 }
 
-#hamButton {
+.hamButton {
     font-size: 2rem;
     padding: 1rem;
     margin: 1rem;
     cursor: pointer;
 }
 
-#navMain {
+.navMain {
     display: none;
 }
 
-#navMain.open {
+.navMain.open {
     display: block;
 }
 
-#navMain.dark {
+.navMain.dark {
     background-color: black;
 }
 
-#navMain.dark h1 {
+.navMain.dark h1 {
     color: white;
 }
 
