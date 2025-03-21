@@ -69,6 +69,29 @@ nav .active {
     color: white;
 }
 
+*************************************
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero span {
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    width: auto;
+    background-color: rgba(255,255,255,0.5);
+    padding: 1rem;
+    font-size: 20px;
+    text-align: center;
+}
+
 .card {
     margin: 1rem 2vw;
 }

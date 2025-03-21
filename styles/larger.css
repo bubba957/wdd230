@@ -12,6 +12,12 @@
         display: inline;
     }
 
+    .hero-span {
+        top: 50%;
+        left: 10%;
+        font-size: 25px;
+    }
+
     .card {
         display: grid;
         grid-template-columns: 1fr 2fr;
