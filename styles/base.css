@@ -82,14 +82,10 @@ nav .active {
 }
 
 .hero span {
-    position: absolute;
-    top: 60%;
-    left: 5%;
-    width: auto;
-    background-color: rgba(255,255,255,0.5);
-    padding: 1rem;
-    font-size: 20px;
+    display: block;
     text-align: center;
+    font-size: 25px;
+    margin: 1rem;
 }
 
 .card {
@@ -115,3 +111,8 @@ nav .active {
     padding: .75rem 0;
     border-radius: 10px;
 }
+
+/* .map {
+    display: block;
+    align-items: center;
+} */

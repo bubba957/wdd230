@@ -12,11 +12,32 @@
         display: inline;
     }
 
-    .hero-span {
+    .hero {
+        position: relative;
+    }
+    
+    .hero img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    
+    .hero span {
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        width: auto;
+        background-color: rgba(255,255,255,0.5);
+        padding: 1rem;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    /* .hero-span {
         top: 50%;
         left: 10%;
         font-size: 25px;
-    }
+    } */
 
     .card {
         display: grid;
