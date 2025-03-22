@@ -112,7 +112,12 @@ nav .active {
     border-radius: 10px;
 }
 
+.visit {
+    margin: 5rem;
+    text-align: center;
+}
+
 /* .map {
-    display: block;
-    align-items: center;
+    margin: auto;
+    align-self: center;
 } */
