@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spring Creek</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development - Cody Smith - Chamber of Commerce - Spring Creek">
+    <meta name="author" content="Cody Smith">
+    <meta property="og:title" content="Cody's Index">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://en.wikipedia.org/wiki/Spring_Creek,_Nevada#/media/File:2014-06-13_12_25_37_View_of_Spring_Creek,_Nevada_from_the_summit_of_%22E%22_Mountain_in_the_Elko_Hills_of_Nevada.JPG">
+    <meta property="og:url" content="https://en.wikipedia.org/wiki/Spring_Creek,_Nevada">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    <header>
+        <img src="images/logo.jpeg" id="header-img" alt="Spring Creek Logo" width="700">
+    </header>
+    <button class="navBtn"></button>
+    <nav>
+        <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li class="active"><a href="join.html">Join</a></li>
+        </ul>
+    </nav>
+    <!-- <nav>
+        <ul class="navigation">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="week01/chamber-site-plan.html">Chamber</a></li>
+            <li><a href="#">Site Plan</a></li>
+            <li><a href="#">Form</a></li>
+        </ul>
+    </nav> -->
+    <main class="join">
+        <div class="form">
+            <form method="get" action="thankyou.html" class="wf1">
+                <label>First Name* <input type="text" name="fname" id="fname" required></label>
+                <label>Last Name* <input type="text" name="lname" id="lname" required></label>
+                <label>Position within the organization <input type="text" name="title" id="title" pattern="[A-Z\s\-]{7,}"></label>
+                <label>Email Address* <input type="email" name="email" id="email" placeholder="youremail@gmail.com" required></label>
+                <label>Phone Number* <input type="tel" name="phone" id="phone" required></label>
+                <label>Organization* <input type="text" name="org" id="org" required></label>
+                <label><input type="radio" name="membership"> NP Membership is for non profit organizations and there is no fee.</label>
+                <label><input type="radio" name="membership"> Bronze Membership</label>
+                <label><input type="radio" name="membership"> Silver Membership</label>
+                <label><input type="radio" name="membership"> Gold Membership</label>
+                <label>Description<textarea name="des" id="des"></textarea></label>
+                <label>Timestamp<input type="hidden" name="time" id="time"></label>
+                <label><input type="submit" value="Turn in Application"></label>
+            </form>
+            <section>
+                <h3>Bronze Member Benefits:</h3>
+                <p>Free Training</p>
+                <h3>Silver Member Benefits:</h3>
+                <p>Free Traning</p>
+                <p>Free Admission to Special Event</p>
+                <h3>Gold Member Benefits:</h3>
+                <p>Free Training</p>
+                <p>Free Admission to Special Event</p>
+                <p>Free Admission for Friends & Family</p>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span class="year"></span> videogameagent@frontiernet.net | Cody Smith</p>
+        <p>This is a project designed for WDD 230</p>
+        <p class="lastModified"></p>
+    </footer>
+    <script src="scripts/base.js"></script>
+</body>
+</html>

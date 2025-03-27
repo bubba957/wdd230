@@ -88,3 +88,63 @@ nav .active {
 h1, h2, h3, p{
     margin: 2rem;
 }
+
+.join {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    background-color: rgb(0, 255, 0);
+}
+
+/* .join form {
+    grid-column: 1/2;
+} */
+
+/* .join section {
+    grid-column: 2/3;
+    text-align: left;
+} */
+
+.wf1 label {
+    display: block;
+    text-align: left;
+    padding: .5rem;
+}
+
+.wf1 input[type='text'], 
+.wf1 input[type='email'], 
+.wf1 input[type='tel'], 
+.wf1 #des {
+    display: block;
+    background-color: rgb(240, 240, 240);
+    border: thin solid rgb(0, 0, 0);
+    padding: .25rem;
+    color: rgb(90, 90, 90);
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+
+.wf1 #des {
+    height: 80px;
+}
+
+.wf1 input[type='submit'] {
+    margin: .5rem 0;
+    font-size: 1rem;
+    padding: 1rem;
+    background-image: linear-gradient(rgb(150, 150, 255), rgb(0, 0, 255));
+}
+
+.wf1 input:required {
+    background-color: rgb(255, 170, 170);
+}
+
+.wf1 input:required:valid {
+    background-color: rgb(170, 255, 170);
+}
+
+/* p.join {
+    margin: 10rem;
+    padding: 10rem;
+}  */
