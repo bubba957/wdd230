@@ -144,7 +144,7 @@ h1, h2, h3, p{
     background-color: rgb(170, 255, 170);
 }
 
-/* p.join {
-    margin: 10rem;
-    padding: 10rem;
+/* p {
+    display: none;
+    text-align: center;
 }  */
