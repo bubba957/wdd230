@@ -1,0 +1,60 @@
+{
+    "companies": [
+        {
+            "name" : "Walmart",
+            "address" : "555 W Nye Ln",
+            "phone" : 7024094221,
+            "url" : "https://www.walmart.com/?adid=22222222224226138098&wmlspartner=wmtlabs&wl0=e&wl1=o&wl2=c&wl3=74629512777785&wl4=kwd-64003623973:loc-71223&wl5=58999&wl6=&wl7=&wl14=Walmart&veh=sem&&msclkid=0e9e18ecdebb1eaeabd77f06cf2efd73&gclid=0e9e18ecdebb1eaeabd77f06cf2efd73&gclsrc=3p.ds",
+            "image" : "https://www.walmart.com/?adid=22222222224226138098&wmlspartner=wmtlabs&wl0=e&wl1=o&wl2=c&wl3=74629512777785&wl4=kwd-64003623973:loc-71223&wl5=58999&wl6=&wl7=&wl14=Walmart&veh=sem&&msclkid=0e9e18ecdebb1eaeabd77f06cf2efd73&gclid=0e9e18ecdebb1eaeabd77f06cf2efd73&gclsrc=3p.ds",
+            "membership" : "Gold"
+        },
+        {
+            "name" : "Amazon",
+            "address" : null,
+            "phone" : 7023306579,
+            "url" : "https://www.amazon.com/ref=nav_logo",
+            "image" : "https://www.amazon.com/ref=nav_logo",
+            "membership" : "Silver"
+        },
+        {
+            "name" : "Zupas",
+            "address" : "1850 N Craig Rd",
+            "phone" : 8012339744,
+            "url" : "https://cafezupas.com/",
+            "image" : "https://cafezupas.com/",
+            "membership" : "Silver"
+        },
+        {
+            "name" : "Lululemon",
+            "address" : "855 S Grand Central Pkwy",
+            "phone" : 7024447889,
+            "url" : "https://shop.lululemon.com/c/bestsellers/n1nskl?cid=MSN_PPC_US_NAT_EN_X_BrandIncr_lululemon_ONLINE_GEN_Y22_ag-PPC_B_US_EN_DM_X_GEN_EM_lululemon&&msclkid=3b1f490151a8159fb9042eeb47a2e1cc&gclid=3b1f490151a8159fb9042eeb47a2e1cc&gclsrc=3p.ds&gad_source=7",
+            "image" : "https://shop.lululemon.com/c/bestsellers/n1nskl?cid=MSN_PPC_US_NAT_EN_X_BrandIncr_lululemon_ONLINE_GEN_Y22_ag-PPC_B_US_EN_DM_X_GEN_EM_lululemon&&msclkid=3b1f490151a8159fb9042eeb47a2e1cc&gclid=3b1f490151a8159fb9042eeb47a2e1cc&gclsrc=3p.ds&gad_source=7",
+            "membership" : "Bronze"
+        },
+        {
+            "name" : "ABC Mouse",
+            "address" : null,
+            "phone" : 7757780808,
+            "url" : "https://www.abcmouse.com/abc/?8a08850bc2=T1220610742.1743394551.6488",
+            "image" : "https://www.abcmouse.com/abc/?8a08850bc2=T1220610742.1743394551.6488",
+            "membership" : "Bronze"
+        },
+        {
+            "name" : "Ebay",
+            "address" : "340 Bolaganese Ln",
+            "phone" : 3487763419,
+            "url" : "https://www.ebay.com/",
+            "image" : "https://www.ebay.com/",
+            "membership" : "Silver"
+        },
+        {
+            "name" : "ESPN",
+            "address" : null,
+            "phone" : 7753970919,
+            "url" : "https://www.espn.com/",
+            "image" : "https://www.espn.com/",
+            "membership" : "Gold"
+        }
+    ]
+}

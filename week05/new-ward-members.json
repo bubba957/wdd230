@@ -1,0 +1,28 @@
+{
+    "familyName" : "Smith",
+    "movedIn" : 2025,
+    "peopleInFamily" : 4,
+    "visitedByBishop" : true,
+    "familyMembers" : [
+        {
+            "name" : "Daniel",
+            "gender" : "M",
+            "birthday" : "06/17/1968"
+        },
+        {
+            "name" : "Stacy",
+            "gender" : "F",
+            "birthday" : "08/31/1972"
+        },
+        {
+            "name" : "Cody",
+            "gender" : "M",
+            "birthday" : "08/24/1993"
+        },
+        {
+            "name" : "Chelsea",
+            "gender" : "F",
+            "birthday" : "10/23/1996"
+        }
+    ]
+}
