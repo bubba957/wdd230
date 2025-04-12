@@ -88,6 +88,13 @@ nav .active {
     margin: 1rem;
 }
 
+.hero-span {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    margin: 1rem;
+}
+
 .card {
     margin: 1rem 2vw;
 }
