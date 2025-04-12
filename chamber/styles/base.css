@@ -78,7 +78,8 @@ nav .active {
 }
 
 .CTA {
-    margin: 1;
+    margin: 0;
+    padding: 1rem;
 }
 
 .hero-img {
